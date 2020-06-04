@@ -1,5 +1,4 @@
-eval source ./.bash_profile
-filecount=$(eval ls -a -l | grep '^[-l]' | wc -l)
+filecount=$(eval ls -l | grep '^[-l]' | wc -l)
 loopflag=1
 
 function compareresult {
