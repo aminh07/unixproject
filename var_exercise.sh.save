@@ -1,0 +1,5 @@
+printvar1 = 3
+var2 = 5
+return var1 + var2
+quit
+
